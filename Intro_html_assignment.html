@@ -1,69 +1,43 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Intro-html-assignment1</title>
-  <style type= "text/css">
-   .three-column {
-  padding: 3em; -moz-column-count: 4; -moz-column-gap: 3em;
-  -webkit-column-count: 4;
-  -webkit-column-gap: 3em;
-  column-count: 3;
-  column-gap: 3em;
-}
- </style>
- <style type= "text/css">
-  .clearfix {
-    overflow: auto;
-     -webkit-box-sizing: border-box;
-              -moz-box-sizing: border-box;
-                    box-sizing: border-box;
-  }
-</style>
-<style type= "text/css">
- img {
-  float: left;
- }
- </style>
- <style type= "text/css">
- article img {
-  width: 50%;
- }
- </style>
-<style type= "text/css">
- @media screen and (min-width:100px) {
-  .container {
-    float: left;
-    width: 25%;
-  }
-  section {
-    margin-left:25%;
-  }
-}
-@media screen and (max-width:400px) {
-  .container {
-    display: inline;
-  }
-}
-</style>
-</head>
-    <body>
-       <p style="font-family: Verdana;" > This is my first attempt at experimenting with the some new  layout skills. I learned more than 15 things from learnlayout.com; everything is still new to me!
-       </p>
-      <p style="font-family: Verdana";> For no specific reason, I chose the following 15 items to mention:
-             </p> 
-       <div class= "clearfix; style = max-width:400px; min-width: 100px; margin: 20px auto;
-          ">
-            <img class="container" src="https://sp.yimg.com/ib/th?id=HN.607991765498659369&pid=15.1&P=0"> 
-            
+    <head>
+	    <link rel="stylesheet" type="text/css" href="./style.css">
+      <title>Intro-html-assignment1</title>
+    </head>
+    <body style="background-color: #e1f5a9">
+       <div id="header"; >
        </div>
-       
-       <div class="three-column"
-              <p style="font-family: cursive; background-color: beige; three-column; text-align: justified;">
+       <div class="main";>
+          <div class="div1";>
+          <a href="http://houston.theironyard.com/"; >
+          <img id="home"; src="http://static.tumblr.com/37ca133c1a84d5b7856c51a7682df3e9/w5gxxfv/XWLn8vkrj/tumblr_static_6ujbwi4jats808kogwo44csgc.png";></a>
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Minissumptions</li>
+          </ul>
+          </div>
+          <div class="div2"; color: "blue";> 
+            <p>
+               <h3 style="font-family: Cosmic Sans MS; text-align:center"> Um, yeah.</h3>
+            </p>
+          <img src="http://www.ideachampions.com/weblogs/Confused.jpg";> 
+            <p class="p";> The image above clearly expresses what is going on in my head after reading learnlayout.com...for the fourth, fifth, sixth...you get the picture, no pun intended. 
+            </p>
+            <p class="p";> For no specific reason, I chose the following 15 items to mention:
+            </p> 
+            <p class="p"; style="font-family: cursive">
+<! Try style bullet points in css   --> 
                 flexbox, webkit-box-sizing, moz-box-sizing,
                 css frameworks, margin properties, display properties,
                 multi-columns, vertical-align, MDN documentation website,
                 clearfix, media queries, max-width, min-width, responsive design definition,viewport meta tag
             </p>   
+       </div>
+       <div class="div3";>
+       <!the footer should have same content as navbar -->
+            <p> Home, About, Minissumptions
+            </p>
        </div>
     </body>
 </html>
